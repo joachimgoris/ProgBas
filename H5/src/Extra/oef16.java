@@ -1,0 +1,39 @@
+package Extra;
+
+import java.util.Scanner;
+
+public class oef16 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int breedte, lengte, eerste, laatste;
+
+		System.out.println("Geef breedte en lengte");
+		breedte = keyboard.nextInt();
+		lengte = keyboard.nextInt();
+		eerste = lengte - lengte + 1;
+		laatste = lengte;
+		
+		teken(breedte, lengte, eerste, laatste);
+		
+		keyboard.close();
+	}
+	
+	private static void teken(int breedte, int lengte, int eerste, int laatste) {
+		for (int i = 1; i <= lengte; i++) {
+			if (i == eerste || i == laatste) {
+				for (int i2 = 0; i2 <= breedte; i2++) {
+					System.out.print("*\t");
+				}
+			}
+			else {
+				System.out.print("*");
+				for (int i2 = 0; i2 <= breedte-1; i2++) {
+					System.out.print("\t");
+				}
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}

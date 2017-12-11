@@ -1,0 +1,25 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef22 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		int lengte, breedte;
+		
+		System.out.println("Geef de lengte en breedte");
+		lengte = keyboard.nextInt();
+		breedte = keyboard.nextInt();
+		
+		bereken(lengte, breedte);
+		
+		keyboard.close();
+	}
+	
+	public static bereken(int lengte, int breedte) {
+		
+	}
+
+}

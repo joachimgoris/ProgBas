@@ -1,0 +1,26 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef11 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int invoer,invoer2,neg=0;
+		do {
+			System.out.println("Geef getal");
+			invoer = keyboard.nextInt();
+			System.out.println("Geef getal2");
+			invoer2 = keyboard.nextInt();
+			System.out.println(invoer+invoer2);
+			if(invoer<0)
+				neg++;
+			if(invoer2<0)
+				neg++;
+		}while(invoer!=0&&invoer2!=0);
+		System.out.println(neg);
+		
+		keyboard.close();
+	}
+
+}

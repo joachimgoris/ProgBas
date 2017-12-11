@@ -1,0 +1,18 @@
+package Voorbeelden;
+
+import java.util.Scanner;
+
+public class Opdracht16b {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Geef je bruto inkomen");
+		double bruto = keyboard.nextDouble();
+		
+		double belastingen = berekenBelastingen(bruto);
+		
+		System.out.println("Te betalen belastingen: "+belastingen);
+	}
+
+}

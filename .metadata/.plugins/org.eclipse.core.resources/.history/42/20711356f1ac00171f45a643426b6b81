@@ -1,0 +1,22 @@
+package oef;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class oef14 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		ArrayList<Object> arrayA = new ArrayList<Object>();
+		ArrayList<Object> arrayH = new ArrayList<Object>();
+		ArrayList<Object> arrayE = new ArrayList<Object>();
+		
+		for(int i = 1; i<=999; i++) {
+			System.out.println("Geef artikelnr, hoeveelheid, eenheidsprijs");
+			arrayA.add(keyboard.nextLine());
+			arrayH.add(keyboard.nextLine());
+			arrayE.add(keyboard.nextLine());
+		}
+	}
+
+}

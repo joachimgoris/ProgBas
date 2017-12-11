@@ -1,0 +1,15 @@
+package Extra;
+
+import java.util.Scanner;
+
+public class oef17 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		double percentage;
+		
+		System.out.println("Geef percentage");
+		percentage = keyboard.nextDouble();
+	}
+
+}

@@ -1,0 +1,17 @@
+package Extra;
+
+public class oef18 {
+
+	public static void main(String[] args) {
+		int a=1, b=1;
+		System.out.println(a);
+		System.out.println(b);
+		while(a<1500||b<1500) {
+			a = a+b;
+			System.out.println(a);
+			b = a+b;
+			System.out.println(b);
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef19 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int getal;
+		System.out.println("Geef lengte");
+		getal = keyboard.nextInt();
+		
+		for(int i = 0;i<getal;i++)
+		{
+			for(int i2 = 0; i2<getal; i++) {
+				System.out.print("@\t");
+			}
+			System.out.println();
+		}
+		
+		keyboard.close();
+	}
+
+}

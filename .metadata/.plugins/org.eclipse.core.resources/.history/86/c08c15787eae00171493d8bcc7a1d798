@@ -1,0 +1,25 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef16 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int inschrijvingsnr, count=0;
+		double percentage;
+		long tijd;
+		
+		System.out.println("Geef het inschrijvingsnr");
+		inschrijvingsnr = keyboard.nextInt();
+		while(inschrijvingsnr>0) {
+			System.out.println("Geef de tijd");
+			tijd = keyboard.nextLong();
+			count++;
+			
+		}
+		
+		keyboard.close();
+	}
+
+}

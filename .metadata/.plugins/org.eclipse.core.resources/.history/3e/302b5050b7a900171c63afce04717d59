@@ -1,0 +1,30 @@
+package Extra;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.util.Date;
+import java.util.Scanner;
+
+public class oef9 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String input;
+		input = scanner.next();
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
+		Date date2=null;
+		Date date3 = new Date();
+		try {
+			date2 = dateFormat.parse(input);
+		} catch(ParseException e) {
+			e.printStackTrace();
+		}
+		System.out.println(date2);
+		int a = date3.getYear() - date2.getYear();
+		int b = date2.getMonth() - date3.getMonth();
+		int c = date3.getDay() - date2.getDay();
+		System.out.println(a+" "+b+" "+c);
+		
+	}	
+}

@@ -1,0 +1,35 @@
+package Extra;
+
+import java.util.Scanner;
+
+public class oef12 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int nr, gewerkteUren, snr=0,sGewerkteUren =0;
+		double uurloon,loon;
+		System.out.println("Geef het nr");
+		nr = keyboard.nextInt();
+		while(nr!=0) {
+			System.out.println("Geef het uurloon");
+			uurloon = keyboard.nextDouble();
+			System.out.println("Geef het aantal gewerkte uren");
+			gewerkteUren = keyboard.nextInt();
+			loon = uurloon*gewerkteUren;
+			if(gewerkteUren>38) {
+				loon *=1.5;
+			}
+			System.out.println(nr+" "+loon);
+			if(gewerkteUren>sGewerkteUren) {
+				sGewerkteUren = gewerkteUren;
+				snr = nr;
+			}
+			
+			System.out.println("Geef het nr");
+			nr = keyboard.nextInt();
+		}
+		System.out.println(snr+" "+sGewerkteUren);
+		keyboard.close();
+	}
+
+}

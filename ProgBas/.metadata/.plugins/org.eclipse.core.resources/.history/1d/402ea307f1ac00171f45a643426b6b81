@@ -1,0 +1,14 @@
+package oef;
+
+import java.util.ArrayList;
+
+public class oef14 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		ArrayList<Object> array = new ArrayList<Object>();
+		
+
+	}
+
+}

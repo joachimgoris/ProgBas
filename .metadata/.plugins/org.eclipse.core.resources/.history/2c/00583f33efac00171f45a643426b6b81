@@ -1,0 +1,17 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef13 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int getal;
+		
+		do {
+			System.out.println("Geef getal");
+			getal = keyboard.nextInt();
+		}while(getal<1||getal>100);
+	}
+
+}

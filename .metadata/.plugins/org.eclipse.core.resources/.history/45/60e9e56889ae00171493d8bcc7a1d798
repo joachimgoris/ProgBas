@@ -1,0 +1,20 @@
+package Extra;
+
+import java.util.Scanner;
+
+public class oef12 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int nr, gewerkteUren;
+		double uurloon;
+		System.out.println("Geef het nr");
+		nr = keyboard.nextInt();
+		while(nr!=0) {
+			
+		}
+		
+		keyboard.close();
+	}
+
+}

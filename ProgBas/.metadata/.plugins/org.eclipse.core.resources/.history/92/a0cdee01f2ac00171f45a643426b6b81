@@ -1,0 +1,28 @@
+package oef;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class oef14 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		ArrayList<Object> arrayA = new ArrayList<Object>();
+		ArrayList<Object> arrayH = new ArrayList<Object>();
+		ArrayList<Object> arrayE = new ArrayList<Object>();
+		double getal=0;
+		
+		for(int i = 1; i<=999;) {
+			System.out.println("Geef artikelnr, hoeveelheid, eenheidsprijs");
+			i = keyboard.nextInt();
+			arrayA.add(i);
+			arrayH.add(keyboard.nextLine());
+			arrayE.add(keyboard.nextLine());
+		}
+		for(int i = 0; i<arrayE.size();i++) {
+			getal += arrayE.get(i);
+		}
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef24 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int aantal,genre, sterren, uitgave, speeltijd;
+		
+	}
+
+}

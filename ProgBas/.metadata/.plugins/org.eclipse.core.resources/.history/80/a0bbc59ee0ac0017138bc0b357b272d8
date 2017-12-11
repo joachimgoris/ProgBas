@@ -1,0 +1,25 @@
+package Voorbeelden;
+
+import java.util.Scanner;
+
+public class opdracht13b {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int getal;
+		System.out.println("oplossing met een while");
+		getal = keyboard.nextInt();
+		while(getal<0 || getal>10) {
+			System.out.println("geef een getal tussen 0 en 10");
+			getal = keyboard.nextInt();
+			
+		}
+		
+		System.out.println("oplossing met een do-while");
+		do {
+			System.out.println("geef een getal tussen 0 en 10");
+			getal = keyboard.nextInt();
+		}while();
+	}
+
+}

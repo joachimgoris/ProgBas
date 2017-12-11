@@ -1,0 +1,17 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef12 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int gewicht;
+		
+		System.out.println("Geef gewicht");
+		gewicht = keyboard.nextInt();
+		System.out.println("Aarde \t Maan \t Jupiter \t Mars");
+		for(int i = 50; i<120;i+=5)
+	}
+
+}

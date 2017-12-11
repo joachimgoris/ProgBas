@@ -1,0 +1,22 @@
+package Extra;
+
+import java.util.Scanner;
+
+public class oef16 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int breedte, lengte;
+		
+		System.out.println("Geef breedte en lengte");
+		breedte = keyboard.nextInt();
+		lengte = keyboard.nextInt();
+		
+		for(int i= 1; i<=lengte; i++) {
+			for(int i2 = 0; i2<=breedte; i++) {
+				System.out.print("*\t");
+			}
+			System.out.println();
+		}
+	}
+}

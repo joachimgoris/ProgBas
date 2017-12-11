@@ -1,0 +1,9 @@
+package oef;
+
+public class oef22 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+	}
+
+}

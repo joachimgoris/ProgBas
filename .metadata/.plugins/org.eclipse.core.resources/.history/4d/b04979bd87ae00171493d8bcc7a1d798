@@ -1,0 +1,15 @@
+package Extra;
+
+import java.util.Scanner;
+
+public class oef10 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int jaar;
+		System.out.println("Geef jaar");
+		jaar = keyboard.nextInt();
+		
+	}
+
+}

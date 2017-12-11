@@ -1,0 +1,18 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef22 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		
+		keyboard.close();
+	}
+	
+	public static bereken(int lengte, int breedte) {
+		
+	}
+
+}

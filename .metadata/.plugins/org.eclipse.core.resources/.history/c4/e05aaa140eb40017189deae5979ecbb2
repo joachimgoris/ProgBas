@@ -1,0 +1,19 @@
+package oef;
+
+import java.util.Scanner;
+
+public class oef25 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int geslacht =0, gewicht = 0;
+		double lengte = 0.0;
+		
+		System.out.println("Geef geslacht, gewicht en lengte");
+		geslacht = input.nextInt();
+		gewicht = input.nextInt();
+		lengte = input.nextDouble();
+	}
+
+}
